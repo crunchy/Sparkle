@@ -59,6 +59,11 @@
 // update is found, it will be downloaded and prepped for installation.
 - (void)checkForUpdatesInBackground;
 
+// This kicks off an update that will not show an UI to the user, even if an update is available.  If an update
+// is available, it will install in the background and the application will restart when it completes.  Use the
+// delegate methods to alter the behavior of a headless update.
+- (void)checkForUpdatesHeadless;
+
 // Date of last update check. Returns null if no check has been performed.
 - (NSDate*)lastUpdateCheckDate;
 
@@ -107,6 +112,12 @@
 
 // Returns the path which is used to relaunch the client after the update is installed. By default, the path of the host bundle.
 - (NSString *)pathToRelaunchForUpdater:(SUUpdater *)updater;
+
+// Status updates during the download phase of the update
+- (void)updaterDidReceiveBytes:(UInt64)bytes ofTotal:(UInt64)totalBytes;
+
+// Called if the update fails for any reason
+- (void)updaterDidAbortWithError:(NSError *)error;
 
 @end
 

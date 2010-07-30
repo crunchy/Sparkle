@@ -15,6 +15,7 @@
 #import "SUProbingUpdateDriver.h"
 #import "SUUserInitiatedUpdateDriver.h"
 #import "SUScheduledUpdateDriver.h"
+#import "SUHeadlessUpdateDriver.h"
 
 @interface SUUpdater (Private)
 - initForBundle:(NSBundle *)bundle;
@@ -182,6 +183,13 @@ static NSString * const SUUpdaterDefaultsObservationContext = @"SUUpdaterDefault
 	checkTimer = nil; // Timer doesn't repeat, so it's invalid, just needs to be set to nil.
 	
 	[self checkForUpdatesWithDriver:[[[([self automaticallyDownloadsUpdates] ? [SUAutomaticUpdateDriver class] : [SUScheduledUpdateDriver class]) alloc] initWithUpdater:self] autorelease]];
+}
+
+- (void)checkForUpdatesHeadless
+{
+	checkTimer = nil; // Timer doesn't repeat, so it's invalid, just needs to be set to nil.
+	
+	[self checkForUpdatesWithDriver:[[[SUHeadlessUpdateDriver alloc] initWithUpdater:self] autorelease]];
 }
 
 - (IBAction)checkForUpdates:sender

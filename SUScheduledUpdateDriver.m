@@ -26,10 +26,13 @@
 
 - (void)abortUpdateWithError:(NSError *)error
 {
-	if (showErrors)
+	if (showErrors) {
 		[super abortUpdateWithError:error];
-	else
+	} else {
+		if ([[updater delegate] respondsToSelector:@selector(updaterDidAbortWithError:)])
+			[[updater delegate] updaterDidAbortWithError:error];
 		[self abortUpdate];
+	}
 }
 
 @end
