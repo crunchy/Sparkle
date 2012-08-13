@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = FAEC981A0D94C8750008EDA9 /* Sparkle Test App */;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Sparkle */;
+		addToTargets = (
+			61B5F90109C4CEE200B25A18 /* Sparkle Test App */,
+		);
+		codeSenseManager = FAEC98240D94C8760008EDA9 /* Code sense */;
+		executables = (
+			FAEC981A0D94C8750008EDA9 /* Sparkle Test App */,
+			FAEC981B0D94C8750008EDA9 /* Relaunch Tool */,
+			D01B9E6211FF9D540024ED8C /* relaunch tool */,
+			D01B9E6311FF9D540024ED8C /* BinaryDelta */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					832,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					792,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302048447;
+			PBXWorkspaceStateSaveDate = 302048447;
+		};
+		perUserProjectItems = {
+			D01B9E9311FFA76D0024ED8C /* PBXTextBookmark */ = D01B9E9311FFA76D0024ED8C /* PBXTextBookmark */;
+			D01B9EA311FFA7BD0024ED8C /* PBXTextBookmark */ = D01B9EA311FFA7BD0024ED8C /* PBXTextBookmark */;
+			D01B9EA411FFA7BD0024ED8C /* PBXTextBookmark */ = D01B9EA411FFA7BD0024ED8C /* PBXTextBookmark */;
+			D01B9EA611FFA7BD0024ED8C /* PBXTextBookmark */ = D01B9EA611FFA7BD0024ED8C /* PBXTextBookmark */;
+			D01B9EA711FFA7BD0024ED8C /* PBXTextBookmark */ = D01B9EA711FFA7BD0024ED8C /* PBXTextBookmark */;
+			D01B9EA811FFA7BD0024ED8C /* PBXTextBookmark */ = D01B9EA811FFA7BD0024ED8C /* PBXTextBookmark */;
+			D01B9EA911FFA7BD0024ED8C /* PBXTextBookmark */ = D01B9EA911FFA7BD0024ED8C /* PBXTextBookmark */;
+			D01B9EAF11FFA8390024ED8C /* PBXTextBookmark */ = D01B9EAF11FFA8390024ED8C /* PBXTextBookmark */;
+			D01B9EE511FFAAFE0024ED8C /* PBXTextBookmark */ = D01B9EE511FFAAFE0024ED8C /* PBXTextBookmark */;
+			D01B9EE711FFAAFE0024ED8C /* PBXTextBookmark */ = D01B9EE711FFAAFE0024ED8C /* PBXTextBookmark */;
+			D01B9EE811FFAAFE0024ED8C /* PBXTextBookmark */ = D01B9EE811FFAAFE0024ED8C /* PBXTextBookmark */;
+			D01B9F2C11FFAFE60024ED8C /* PBXTextBookmark */ = D01B9F2C11FFAFE60024ED8C /* PBXTextBookmark */;
+			D04B66F21202044C00389B0F /* PBXTextBookmark */ = D04B66F21202044C00389B0F /* PBXTextBookmark */;
+			D04B66F31202044C00389B0F /* PBXTextBookmark */ = D04B66F31202044C00389B0F /* PBXTextBookmark */;
+			D04B66F41202044C00389B0F /* PBXTextBookmark */ = D04B66F41202044C00389B0F /* PBXTextBookmark */;
+			D04B66F51202044C00389B0F /* PBXTextBookmark */ = D04B66F51202044C00389B0F /* PBXTextBookmark */;
+			D04B66F71202044C00389B0F /* PBXTextBookmark */ = D04B66F71202044C00389B0F /* PBXTextBookmark */;
+			D04B66F81202044C00389B0F /* PBXTextBookmark */ = D04B66F81202044C00389B0F /* PBXTextBookmark */;
+			D04B66F91202044C00389B0F /* PBXTextBookmark */ = D04B66F91202044C00389B0F /* PBXTextBookmark */;
+			D04B66FB1202044C00389B0F /* PBXTextBookmark */ = D04B66FB1202044C00389B0F /* PBXTextBookmark */;
+			D04B66FC1202044C00389B0F /* PBXTextBookmark */ = D04B66FC1202044C00389B0F /* PBXTextBookmark */;
+			D04B6706120204DA00389B0F /* PBXTextBookmark */ = D04B6706120204DA00389B0F /* PBXTextBookmark */;
+			D04B6707120204DA00389B0F /* PBXTextBookmark */ = D04B6707120204DA00389B0F /* PBXTextBookmark */;
+			D04B6708120204DA00389B0F /* PBXTextBookmark */ = D04B6708120204DA00389B0F /* PBXTextBookmark */;
+			D04B6709120204DA00389B0F /* PBXTextBookmark */ = D04B6709120204DA00389B0F /* PBXTextBookmark */;
+			D04B670A120204DA00389B0F /* PBXTextBookmark */ = D04B670A120204DA00389B0F /* PBXTextBookmark */;
+			D04B670B120204DA00389B0F /* PBXTextBookmark */ = D04B670B120204DA00389B0F /* PBXTextBookmark */;
+			D04B6A2312029F1700389B0F /* PBXTextBookmark */ = D04B6A2312029F1700389B0F /* PBXTextBookmark */;
+			D04B6A2412029F1700389B0F /* PBXTextBookmark */ = D04B6A2412029F1700389B0F /* PBXTextBookmark */;
+			D04B6A2612029F1700389B0F /* PBXTextBookmark */ = D04B6A2612029F1700389B0F /* PBXTextBookmark */;
+			D04B6A2712029F1700389B0F /* PBXTextBookmark */ = D04B6A2712029F1700389B0F /* PBXTextBookmark */;
+			D04B6A2812029F1700389B0F /* PBXTextBookmark */ = D04B6A2812029F1700389B0F /* PBXTextBookmark */;
+			D04B6A2912029F1700389B0F /* PBXTextBookmark */ = D04B6A2912029F1700389B0F /* PBXTextBookmark */;
+			D04B6A2A12029F1700389B0F /* PBXTextBookmark */ = D04B6A2A12029F1700389B0F /* PBXTextBookmark */;
+		};
+		sourceControlManager = FAEC98230D94C8760008EDA9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5D06E8CF0FD68C7C005AE3F6 /* BinaryDelta */ = {
+		activeExec = 0;
+		executables = (
+			D01B9E6311FF9D540024ED8C /* BinaryDelta */,
+		);
+	};
+	610134710DD250470049ACDF /* SUUpdateDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 544}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 572}";
+		};
+	};
+	610134720DD250470049ACDF /* SUUpdateDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 656}}";
+			sepNavSelRange = "{390, 0}";
+			sepNavVisRange = "{0, 703}";
+		};
+	};
+	610134790DD2541A0049ACDF /* SUProbingUpdateDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 525}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 383}";
+		};
+	};
+	6101347A0DD2541A0049ACDF /* SUProbingUpdateDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 500}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 784}";
+		};
+	};
+	6120721009CC5C4B007FE0F6 /* SUAutomaticUpdateAlert.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 688}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 700}";
+		};
+	};
+	612279D80DB5470200AB99EA /* Sparkle Unit Tests */ = {
+		activeExec = 0;
+	};
+	6129984309C9E2DA00B7442F /* SUPlainInstallerInternals.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 496}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 491}";
+		};
+	};
+	61299A5B09CA6D4500B7442F /* SUConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 1152}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1008}";
+		};
+	};
+	61299A8B09CA790200B7442F /* SUUnarchiver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 544}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 679}";
+		};
+	};
+	61299B3509CB04E000B7442F /* Sparkle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 496}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 536}";
+		};
+	};
+	61A2259C0D1C495D00430CCD /* SUVersionComparisonProtocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 496}}";
+			sepNavSelRange = "{691, 0}";
+			sepNavVisRange = "{0, 705}";
+		};
+	};
+	61A225A20D1C4AC000430CCD /* SUStandardVersionComparator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 592}}";
+			sepNavSelRange = "{273, 0}";
+			sepNavVisRange = "{0, 859}";
+		};
+	};
+	61A225A30D1C4AC000430CCD /* SUStandardVersionComparator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 2592}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 719}";
+		};
+	};
+	61A2279A0D1CEE7600430CCD /* SUSystemProfiler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 496}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 375}";
+		};
+	};
+	61A2279B0D1CEE7600430CCD /* SUSystemProfiler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 2480}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 798}";
+		};
+	};
+	61A354530DF113C70076ECB1 /* SUUserInitiatedUpdateDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 525}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 439}";
+		};
+	};
+	61A354540DF113C70076ECB1 /* SUUserInitiatedUpdateDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1424}}";
+			sepNavSelRange = "{1523, 45}";
+			sepNavVisRange = "{1175, 631}";
+		};
+	};
+	61B5F8E309C4CE3C00B25A18 /* SUUpdater.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2301, 2096}}";
+			sepNavSelRange = "{4279, 244}";
+			sepNavVisRange = "{3900, 1489}";
+		};
+	};
+	61B5F8E409C4CE3C00B25A18 /* SUUpdater.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2238, 7008}}";
+			sepNavSelRange = "{16904, 0}";
+			sepNavVisRange = "{16726, 503}";
+		};
+	};
+	61B5F90109C4CEE200B25A18 /* Sparkle Test App */ = {
+		activeExec = 0;
+		executables = (
+			FAEC981A0D94C8750008EDA9 /* Sparkle Test App */,
+		);
+	};
+	61B5FB9409C4F04600B25A18 /* SUAppcast.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 592}}";
+			sepNavSelRange = "{487, 0}";
+			sepNavVisRange = "{132, 567}";
+		};
+	};
+	61B5FB9509C4F04600B25A18 /* SUAppcast.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 4704}}";
+			sepNavSelRange = "{214, 0}";
+			sepNavVisRange = "{712, 839}";
+		};
+	};
+	61B93A390DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 525}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 494}";
+		};
+	};
+	61B93A3A0DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1734, 3008}}";
+			sepNavSelRange = "{3309, 0}";
+			sepNavVisRange = "{3055, 438}";
+		};
+	};
+	61B93B250DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 525}}";
+			sepNavSelRange = "{241, 0}";
+			sepNavVisRange = "{0, 464}";
+		};
+	};
+	61B93B260DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 1280}}";
+			sepNavSelRange = "{290, 19}";
+			sepNavVisRange = "{148, 1274}";
+		};
+	};
+	61B93C070DD112FF00DCD2F8 /* SUScheduledUpdateDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 500}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 381}";
+		};
+	};
+	61B93C080DD112FF00DCD2F8 /* SUScheduledUpdateDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 624}}";
+			sepNavSelRange = "{780, 0}";
+			sepNavVisRange = "{48, 902}";
+		};
+	};
+	61EF67550E25B58D00F754E0 /* SUHost.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 3888}}";
+			sepNavSelRange = "{5366, 0}";
+			sepNavVisRange = "{4447, 1373}";
+		};
+	};
+	61F83F6F0DBFE137006FDD30 /* SUBasicUpdateDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 1040}}";
+			sepNavSelRange = "{522, 0}";
+			sepNavVisRange = "{259, 1010}";
+		};
+	};
+	61F83F700DBFE137006FDD30 /* SUBasicUpdateDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3498, 6064}}";
+			sepNavSelRange = "{6273, 0}";
+			sepNavVisRange = "{4669, 1762}";
+		};
+	};
+	8DC2EF4F0486A6940098B216 /* Sparkle */ = {
+		activeExec = 0;
+	};
+	D01B9E6211FF9D540024ED8C /* relaunch tool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "relaunch tool";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D01B9E6311FF9D540024ED8C /* BinaryDelta */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BinaryDelta;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D01B9E7211FF9E1D0024ED8C /* SUHeadlessUpdateDriver.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {835, 525}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 279}";
+		};
+	};
+	D01B9E7311FF9E1D0024ED8C /* SUHeadlessUpdateDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 496}}";
+			sepNavSelRange = "{190, 0}";
+			sepNavVisRange = "{0, 237}";
+			sepNavWindowFrame = "{{15, 59}, {1384, 814}}";
+		};
+	};
+	D01B9E9311FFA76D0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D01B9E9411FFA76D0024ED8C /* NSObjCRuntime.h */;
+		name = "NSObjCRuntime.h: 112";
+		rLen = 34;
+		rLoc = 3663;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 3068;
+	};
+	D01B9E9411FFA76D0024ED8C /* NSObjCRuntime.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObjCRuntime.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSObjCRuntime.h;
+		sourceTree = "<absolute>";
+	};
+	D01B9EA311FFA7BD0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B93A390DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.h */;
+		name = "SUUIBasedUpdateDriver.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 494;
+		vrLoc = 0;
+	};
+	D01B9EA411FFA7BD0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B93B250DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.h */;
+		name = "SUAutomaticUpdateDriver.h: 12";
+		rLen = 0;
+		rLoc = 241;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	D01B9EA611FFA7BD0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 610134790DD2541A0049ACDF /* SUProbingUpdateDriver.h */;
+		name = "SUProbingUpdateDriver.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	D01B9EA711FFA7BD0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61A354530DF113C70076ECB1 /* SUUserInitiatedUpdateDriver.h */;
+		name = "SUUserInitiatedUpdateDriver.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	D01B9EA811FFA7BD0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D01B9E7211FF9E1D0024ED8C /* SUHeadlessUpdateDriver.h */;
+		name = "SUHeadlessUpdateDriver.h: 13";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 279;
+		vrLoc = 0;
+	};
+	D01B9EA911FFA7BD0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 610134710DD250470049ACDF /* SUUpdateDriver.h */;
+		name = "SUUpdateDriver.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 3;
+	};
+	D01B9EAF11FFA8390024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B93B260DD0FDD300DCD2F8 /* SUAutomaticUpdateDriver.m */;
+		name = "SUAutomaticUpdateDriver.m: 16";
+		rLen = 19;
+		rLoc = 290;
+		rType = 0;
+		vrLen = 1274;
+		vrLoc = 148;
+	};
+	D01B9EE511FFAAFE0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B93C070DD112FF00DCD2F8 /* SUScheduledUpdateDriver.h */;
+		name = "SUScheduledUpdateDriver.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 0;
+	};
+	D01B9EE711FFAAFE0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61A354540DF113C70076ECB1 /* SUUserInitiatedUpdateDriver.m */;
+		name = "SUUserInitiatedUpdateDriver.m: 60";
+		rLen = 45;
+		rLoc = 1523;
+		rType = 0;
+		vrLen = 631;
+		vrLoc = 1175;
+	};
+	D01B9EE811FFAAFE0024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6101347A0DD2541A0049ACDF /* SUProbingUpdateDriver.m */;
+		name = "SUProbingUpdateDriver.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 0;
+	};
+	D01B9F2C11FFAFE60024ED8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B93A3A0DD02D6400DCD2F8 /* SUUIBasedUpdateDriver.m */;
+		name = "SUUIBasedUpdateDriver.m: 176";
+		rLen = 0;
+		rLoc = 7232;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 6418;
+	};
+	D04B66F21202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EF67550E25B58D00F754E0 /* SUHost.m */;
+		name = "SUHost.m: 164";
+		rLen = 0;
+		rLoc = 5366;
+		rType = 0;
+		vrLen = 1373;
+		vrLoc = 4447;
+	};
+	D04B66F31202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B5FB9509C4F04600B25A18 /* SUAppcast.m */;
+		name = "SUAppcast.m: 12";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 712;
+	};
+	D04B66F41202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61A225A30D1C4AC000430CCD /* SUStandardVersionComparator.m */;
+		name = "SUStandardVersionComparator.m: 20";
+		rLen = 0;
+		rLoc = 501;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	D04B66F51202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 610134720DD250470049ACDF /* SUUpdateDriver.m */;
+		name = "SUUpdateDriver.m: 19";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	D04B66F71202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F83F6F0DBFE137006FDD30 /* SUBasicUpdateDriver.h */;
+		name = "SUBasicUpdateDriver.h: 23";
+		rLen = 0;
+		rLoc = 522;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 259;
+	};
+	D04B66F81202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F83F700DBFE137006FDD30 /* SUBasicUpdateDriver.m */;
+		name = "SUBasicUpdateDriver.m: 159";
+		rLen = 0;
+		rLoc = 6273;
+		rType = 0;
+		vrLen = 1762;
+		vrLoc = 4669;
+	};
+	D04B66F91202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61A2279B0D1CEE7600430CCD /* SUSystemProfiler.m */;
+		name = "SUSystemProfiler.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	D04B66FB1202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B93C080DD112FF00DCD2F8 /* SUScheduledUpdateDriver.m */;
+		name = "SUScheduledUpdateDriver.m: 31";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 902;
+		vrLoc = 48;
+	};
+	D04B66FC1202044C00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D01B9E7311FF9E1D0024ED8C /* SUHeadlessUpdateDriver.m */;
+		name = "SUHeadlessUpdateDriver.m: 10";
+		rLen = 0;
+		rLoc = 190;
+		rType = 0;
+		vrLen = 237;
+		vrLoc = 0;
+	};
+	D04B6706120204DA00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61A2279A0D1CEE7600430CCD /* SUSystemProfiler.h */;
+		name = "SUSystemProfiler.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 0;
+	};
+	D04B6707120204DA00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6129984309C9E2DA00B7442F /* SUPlainInstallerInternals.h */;
+		name = "SUPlainInstallerInternals.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 0;
+	};
+	D04B6708120204DA00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61299A5B09CA6D4500B7442F /* SUConstants.h */;
+		name = "SUConstants.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 0;
+	};
+	D04B6709120204DA00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61299A8B09CA790200B7442F /* SUUnarchiver.h */;
+		name = "SUUnarchiver.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 0;
+	};
+	D04B670A120204DA00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61299B3509CB04E000B7442F /* Sparkle.h */;
+		name = "Sparkle.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	D04B670B120204DA00389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6120721009CC5C4B007FE0F6 /* SUAutomaticUpdateAlert.h */;
+		name = "SUAutomaticUpdateAlert.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 0;
+	};
+	D04B6A2312029F1700389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B5FB9409C4F04600B25A18 /* SUAppcast.h */;
+		name = "SUAppcast.h: 26";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 132;
+	};
+	D04B6A2412029F1700389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D04B6A2512029F1700389B0F /* NSBundle.h */;
+		name = "NSBundle.h: 11";
+		rLen = 33;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 842;
+		vrLoc = 0;
+	};
+	D04B6A2512029F1700389B0F /* NSBundle.h */ = {
+		isa = PBXFileReference;
+		name = NSBundle.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSBundle.h;
+		sourceTree = "<absolute>";
+	};
+	D04B6A2612029F1700389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61A2259C0D1C495D00430CCD /* SUVersionComparisonProtocol.h */;
+		name = "SUVersionComparisonProtocol.h: 24";
+		rLen = 0;
+		rLoc = 691;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	D04B6A2712029F1700389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61A225A20D1C4AC000430CCD /* SUStandardVersionComparator.h */;
+		name = "SUStandardVersionComparator.h: 14";
+		rLen = 0;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 0;
+	};
+	D04B6A2812029F1700389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B5F8E309C4CE3C00B25A18 /* SUUpdater.h */;
+		name = "SUUpdater.h: 103";
+		rLen = 244;
+		rLoc = 4279;
+		rType = 0;
+		vrLen = 1489;
+		vrLoc = 3900;
+	};
+	D04B6A2912029F1700389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B5F8E409C4CE3C00B25A18 /* SUUpdater.m */;
+		name = "SUUpdater.m: 297";
+		rLen = 4;
+		rLoc = 12012;
+		rType = 0;
+		vrLen = 1414;
+		vrLoc = 11399;
+	};
+	D04B6A2A12029F1700389B0F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61B5F8E409C4CE3C00B25A18 /* SUUpdater.m */;
+		name = "SUUpdater.m: 410";
+		rLen = 0;
+		rLoc = 16904;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 16726;
+	};
+	DAAEFC950DA571DF0051E0D0 /* relaunch tool */ = {
+		activeExec = 0;
+		executables = (
+			D01B9E6211FF9D540024ED8C /* relaunch tool */,
+		);
+	};
+	FAEC981A0D94C8750008EDA9 /* Sparkle Test App */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocGuardEdges;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocCheckHeapStart;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocCheckHeapEach;
+				value = 100000;
+			},
+			{
+				active = YES;
+				name = MallocStackLogging;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = MallocStackLoggingNoCompact;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSDeallocateZombies;
+				value = NO;
+			},
+			{
+				active = YES;
+				name = NSAutoreleaseFreedObjectCheckEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = MALLOC_PROTECT_BEFORE;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MALLOC_ALTIVEC_SIZE;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MALLOC_FILL_SPACE;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = CFZombieLevel;
+				value = 65553;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Sparkle Test App";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FAEC981B0D94C8750008EDA9 /* Relaunch Tool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = MallocPreScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocScribble;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocGuardEdges;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocCheckHeapStart;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MallocCheckHeapEach;
+				value = 100000;
+			},
+			{
+				active = YES;
+				name = MallocStackLogging;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = MallocStackLoggingNoCompact;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = NSDebugEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = NSDeallocateZombies;
+				value = NO;
+			},
+			{
+				active = YES;
+				name = NSAutoreleaseFreedObjectCheckEnabled;
+				value = YES;
+			},
+			{
+				active = NO;
+				name = MALLOC_PROTECT_BEFORE;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MALLOC_ALTIVEC_SIZE;
+				value = 1;
+			},
+			{
+				active = YES;
+				name = MALLOC_FILL_SPACE;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = CFZombieLevel;
+				value = 65553;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Relaunch Tool";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FAEC98230D94C8760008EDA9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FAEC98240D94C8760008EDA9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

@@ -222,6 +222,19 @@
 	[self extractUpdate];
 }
 
+- (void)download:(NSURLDownload *)dl didReceiveResponse:(NSURLResponse *)response {
+	downloadBytesReceived = 0;
+	downloadExpectedLength = [response expectedContentLength];
+	if ([[updater delegate] respondsToSelector:@selector(updaterDidReceiveBytes:ofTotal:)])
+		[[updater delegate] updaterDidReceiveBytes:downloadBytesReceived ofTotal:downloadExpectedLength];
+}
+
+- (void)download:(NSURLDownload *)dl didReceiveDataOfLength:(NSUInteger)length {
+	downloadBytesReceived += length;
+	if ([[updater delegate] respondsToSelector:@selector(updaterDidReceiveBytes:ofTotal:)])
+		[[updater delegate] updaterDidReceiveBytes:downloadBytesReceived ofTotal:downloadExpectedLength];
+}
+
 - (void)download:(NSURLDownload *)download didFailWithError:(NSError *)error
 {
 	[self abortUpdateWithError:[NSError errorWithDomain:SUSparkleErrorDomain code:SURelaunchError userInfo:[NSDictionary dictionaryWithObjectsAndKeys:SULocalizedString(@"An error occurred while downloading the update. Please try again later.", nil), NSLocalizedDescriptionKey, [error localizedDescription], NSLocalizedFailureReasonErrorKey, nil]]];
@@ -385,6 +398,8 @@
 		SULog(@"Sparkle Error (continued): %@", [error localizedFailureReason]);
 	if (download)
 		[download cancel];
+	if ([[updater delegate] respondsToSelector:@selector(updaterDidAbortWithError:)])
+		[[updater delegate] updaterDidAbortWithError:error];
 	[self abortUpdate];
 }
 

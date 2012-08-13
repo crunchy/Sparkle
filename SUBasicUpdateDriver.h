@@ -22,6 +22,9 @@
 	NSString *tempDir;
 	
 	NSString *relaunchPath;
+	
+	UInt64 downloadExpectedLength;
+	UInt64 downloadBytesReceived;
 }
 
 - (void)checkForUpdatesAtURL:(NSURL *)URL host:(SUHost *)host;
@@ -40,6 +43,7 @@
 - (void)download:(NSURLDownload *)d decideDestinationWithSuggestedFilename:(NSString *)name;
 - (void)downloadDidFinish:(NSURLDownload *)d;
 - (void)download:(NSURLDownload *)download didFailWithError:(NSError *)error;
+- (void)download:(NSURLDownload *)download didReceiveDataOfLength:(NSUInteger)length;
 
 - (void)extractUpdate;
 - (void)unarchiverDidFinish:(SUUnarchiver *)ua;

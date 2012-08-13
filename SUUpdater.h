@@ -54,14 +54,19 @@
 
 // This IBAction is meant for a main menu item. Hook up any menu item to this action,
 // and Sparkle will check for updates and report back its findings verbosely.
-- (IBAction)checkForUpdates:(id)sender;
+- (IBAction)checkForUpdates: (id)sender;
 
 // This kicks off an update meant to be programmatically initiated. That is, it will display no UI unless it actually finds an update,
 // in which case it proceeds as usual. If the fully automated updating is turned on, however, this will invoke that behavior, and if an
 // update is found, it will be downloaded and prepped for installation.
 - (void)checkForUpdatesInBackground;
 
-// Date of last update check. Returns nil if no check has been performed.
+// This kicks off an update that will not show an UI to the user, even if an update is available.  If an update
+// is available, it will install in the background and the application will restart when it completes.  Use the
+// delegate methods to alter the behavior of a headless update.
+- (void)checkForUpdatesHeadless;
+
+// Date of last update check. Returns null if no check has been performed.
 - (NSDate*)lastUpdateCheckDate;
 
 // This begins a "probing" check for updates which will not actually offer to update to that version. The delegate methods, though,
@@ -137,6 +142,12 @@
 //	the opportunity to hide attached windows etc. that may get in the way:
 -(void)	updaterWillShowModalAlert:(SUUpdater *)updater;
 -(void)	updaterDidShowModalAlert:(SUUpdater *)updater;
+
+// Status updates during the download phase of the update
+- (void)updaterDidReceiveBytes:(UInt64)bytes ofTotal:(UInt64)totalBytes;
+
+// Called if the update fails for any reason
+- (void)updaterDidAbortWithError:(NSError *)error;
 
 @end
 

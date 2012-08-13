@@ -92,9 +92,10 @@
 	}			
 }
 
-- (void)download:(NSURLDownload *)download didReceiveResponse:(NSURLResponse *)response
+- (void)download:(NSURLDownload *)dl didReceiveResponse:(NSURLResponse *)response
 {
 	[statusController setMaxProgressValue:[response expectedContentLength]];
+	[super download:dl didReceiveResponse:response];
 }
 
 - (NSString *)humanReadableSizeFromDouble:(double)value
@@ -111,13 +112,14 @@
 	return [NSString stringWithFormat:@"%.2lf %@", value / 1000.0 / 1000.0 / 1000.0, SULocalizedString(@"GB", @"the unit for gigabytes")];	
 }
 
-- (void)download:(NSURLDownload *)download didReceiveDataOfLength:(NSUInteger)length
+- (void)download:(NSURLDownload *)dl didReceiveDataOfLength:(NSUInteger)length
 {
 	[statusController setProgressValue:[statusController progressValue] + (double)length];
 	if ([statusController maxProgressValue] > 0.0)
 		[statusController setStatusText:[NSString stringWithFormat:SULocalizedString(@"%@ of %@", nil), [self humanReadableSizeFromDouble:[statusController progressValue]], [self humanReadableSizeFromDouble:[statusController maxProgressValue]]]];
 	else
 		[statusController setStatusText:[NSString stringWithFormat:SULocalizedString(@"%@ downloaded", nil), [self humanReadableSizeFromDouble:[statusController progressValue]]]];
+	[super download:dl didReceiveDataOfLength:length];
 }
 
 - (IBAction)cancelDownload: (id)sender
