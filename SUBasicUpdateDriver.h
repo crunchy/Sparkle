@@ -42,6 +42,7 @@
 - (void)downloadUpdate;
 - (void)download:(NSURLDownload *)d decideDestinationWithSuggestedFilename:(NSString *)name;
 - (void)downloadDidFinish:(NSURLDownload *)d;
+- (void)download:(NSURLDownload *)dl didReceiveResponse:(NSURLResponse *)response;
 - (void)download:(NSURLDownload *)download didFailWithError:(NSError *)error;
 - (void)download:(NSURLDownload *)download didReceiveDataOfLength:(NSUInteger)length;
 
